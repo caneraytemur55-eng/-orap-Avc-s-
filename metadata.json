@@ -1,0 +1,6 @@
+{
+  "name": "Çorap Avcısı - Sock Match GameMaster",
+  "description": "Birbirine karışmış yün ve pamuklu çorap eşlerini eşleştir, hızlanan süreye meydan oku ve GameMaster diplomasını kazan! ikas e-ticaret abonelik modeline hazır refleks ve bulmaca oyunu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

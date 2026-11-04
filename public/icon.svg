@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="sockGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="cuffGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#facc15" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Rounded Container -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <rect x="8" y="8" width="496" height="496" rx="104" fill="none" stroke="#f59e0b" stroke-width="4" stroke-opacity="0.3" />
+
+  <!-- Laurel Wreath Backdrop -->
+  <g fill="#f59e0b" opacity="0.25">
+    <ellipse cx="120" cy="260" rx="14" ry="24" transform="rotate(-30 120 260)" />
+    <ellipse cx="140" cy="330" rx="14" ry="24" transform="rotate(-15 140 330)" />
+    <ellipse cx="180" cy="390" rx="14" ry="24" transform="rotate(10 180 390)" />
+    <ellipse cx="392" cy="260" rx="14" ry="24" transform="rotate(30 392 260)" />
+    <ellipse cx="372" cy="330" rx="14" ry="24" transform="rotate(15 372 330)" />
+    <ellipse cx="332" cy="390" rx="14" ry="24" transform="rotate(-10 332 390)" />
+  </g>
+
+  <!-- Crown on Top -->
+  <path d="M196 110 L220 150 L256 120 L292 150 L316 110 L310 170 L202 170 Z" fill="#fef08a" stroke="#ca8a04" stroke-width="6" stroke-linejoin="round" />
+  <circle cx="196" cy="106" r="6" fill="#f59e0b" />
+  <circle cx="256" cy="116" r="7" fill="#f59e0b" />
+  <circle cx="316" cy="106" r="6" fill="#f59e0b" />
+
+  <!-- Main Sock Shape (Centered) -->
+  <g transform="translate(45, 20)">
+    <!-- Sock Body -->
+    <path
+      d="M190 140 C190 130 260 130 260 140 L260 250 C260 270 270 285 290 300 C320 325 330 365 295 385 C260 405 210 395 180 375 C145 340 170 300 190 250 Z"
+      fill="url(#sockGrad)"
+      stroke="#fef08a"
+      stroke-width="10"
+      stroke-linejoin="round"
+    />
+
+    <!-- Ribbed Cuff -->
+    <rect x="180" y="130" width="90" height="30" rx="8" fill="url(#cuffGrad)" stroke="#b45309" stroke-width="5" />
+    <line x1="205" y1="130" x2="205" y2="160" stroke="#b45309" stroke-width="4" stroke-linecap="round" />
+    <line x1="225" y1="130" x2="225" y2="160" stroke="#b45309" stroke-width="4" stroke-linecap="round" />
+    <line x1="245" y1="130" x2="245" y2="160" stroke="#b45309" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Knitted Wool Pattern Accent Lines -->
+    <path d="M205 190 Q215 198 225 190 M235 190 Q245 198 255 190" stroke="#fef08a" stroke-width="5" stroke-linecap="round" fill="none" />
+    <path d="M205 220 Q215 228 225 220 M235 220 Q245 228 255 220" stroke="#fef08a" stroke-width="5" stroke-linecap="round" fill="none" />
+
+    <!-- Sparkle Stars -->
+    <polygon points="280,210 284,222 296,224 286,232 289,244 280,237 271,244 274,232 264,224 276,222" fill="#ffffff" />
+    <circle cx="215" cy="340" r="8" fill="#fef08a" />
+    <circle cx="285" cy="355" r="16" fill="#fef08a" opacity="0.6" />
+  </g>
+</svg>
